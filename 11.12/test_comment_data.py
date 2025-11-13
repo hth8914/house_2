@@ -22,8 +22,8 @@ mysql_user_pwd = os.getenv('sqlserver_user_pwd')
 mysql_order_db = os.getenv('sqlserver_db')
 
 # 硅基流动API配置 - 使用正确的参数
-SILICONFLOW_API_KEY = 'sk-ejamrrtosuwvmaepedfknfkbazxgrkfjcwjwjszatalfmllz'
-SILICONFLOW_API_URL = "https://api.siliconflow.cn/v1/chat/completions"
+SILICONFLOW_API_KEY = ''
+SILICONFLOW_API_URL = ""
 MODEL_NAME = "Qwen/Qwen3-8B"
 
 
@@ -304,4 +304,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
